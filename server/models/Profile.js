@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 
 const availabileTimes = {
-  startTime: Date,
-  endTime: Date,
+  startTime: Number,
+  endTime: Number,
 },
 
 const citySchema = new mongoose.Schema({
