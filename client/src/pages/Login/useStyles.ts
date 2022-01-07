@@ -2,10 +2,13 @@ import { makeStyles } from '@mui/styles';
 
 const useStyles = makeStyles(() => ({
   root: {
+    display: 'flex',
     minHeight: '100vh',
     '& .MuiInput-underline:before': {
       borderBottom: '1.2px solid rgba(0, 0, 0, 0.2)',
     },
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   authWrapper: {
     minHeight: '100vh',
