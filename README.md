@@ -40,3 +40,8 @@ This is a little description about your project.
 2. Dashboard. Here is a description about what a user can expect to see
 
 ![Dashboard](demo/images/dashboard.png)
+
+### Tests
+1. Navigate to the server directory
+2. Start local server by running `npm run dev`
+3. Run test in separate terminal by running `npm test`
